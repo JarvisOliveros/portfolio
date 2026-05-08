@@ -10,7 +10,7 @@ export default function background() {
     // 1. Create a state that we toggle to force a re-calculation of random values
   const [iteration, setIteration] = useState(0);
 
-  // 2. Generate random vertical points (between 10% and 80% of screen height)
+  // 2. Generate random vertical points (between 10% and 80% of screen height)npm
   const randomY = () => [
     `${Math.random() * 40 + 10}vh`, // Start point
     `${Math.random() * 40 + 40}vh`, // Middle point 1
